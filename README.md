@@ -6,6 +6,15 @@ This repository provides a function to execute a trained grasping policy for box
 - `grasp_active_size.py`: Contains the `grasp_active_size` function which loads the model and runs the inference environment.
 - `active_size.zip`: The pre-trained SAC model for grasping.
 
+## Installation
+
+1. Make sure you have your environment (like `flower_cal`) set up.
+2. Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Usage
 
 You can import and use the function in your Python scripts:
