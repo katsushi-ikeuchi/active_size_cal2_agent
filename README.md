@@ -5,6 +5,8 @@ This repository provides a function to execute a trained grasping policy for box
 ## Files
 - `grasp_active_size.py`: Contains the `grasp_active_size` function which loads the model and runs the inference environment.
 - `active_size.zip`: The pre-trained SAC model for grasping.
+- `panda_hx5_right.urdf`: URDF model of Panda with HX5 hand for PyBullet kinematics calculation.
+- `report_grasp_active_size.md`: Technical documentation explaining the system.
 
 ## Installation
 

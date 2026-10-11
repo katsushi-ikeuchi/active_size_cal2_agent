@@ -14,7 +14,7 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 WORKSPACE_DIR = "/home/ikeuchi/robotis"
 SAC_DIR = os.path.join(WORKSPACE_DIR, "grasp/isaac/sac")
 USD_PATH = os.path.join(SAC_DIR, "panda_hx5.usd")
-URDF_PATH = "/home/ikeuchi/flower/calvin_env/data/panda_hx5/panda_hx5_right.urdf"
+URDF_PATH = os.path.join(SCRIPT_DIR, "panda_hx5_right.urdf")
 MODEL_PATH = os.path.join(SCRIPT_DIR, "active_size.zip")
 
 def create_inference_env(app, box_pos, box_half_extents, headless=False):
